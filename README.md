@@ -1,40 +1,32 @@
-# Dsa 210 Project 
-
-Analyzing Bitcoin and Gold Market Dynamics
+# Analyzing Bitcoin and Gold Market Dynamics
 
 # Project Overview  
-This project examines Bitcoin and gold to understand how each functions as a store of value. Gold is a long-established and relatively stable asset, whereas Bitcoin is modern, digital, and significantly more volatile. The analysis will focus on their price movements, volatility, and long-term behavior to evaluate whether Bitcoin is beginning to exhibit characteristics similar to gold.
+This project compares Bitcoin and gold to understand how each functions as a store of value. Gold is a long-established, stable asset, while Bitcoin is digital, relatively new, and highly volatile. The goal is to examine whether Bitcoin is starting to behave like gold or if it still acts mainly as a speculative asset.
 
-# Motivation  
-Bitcoin is popularly referred to as “digital gold,” though this reinforces belief more than evidence. Gold has been a proven safe-haven asset for centuries, while Bitcoin—despite its risks—has started attracting institutional investors and is sometimes treated as a hedge asset.  
-By comparing the two using metrics like returns, volatility, and rolling correlation, this study aims to determine whether Bitcoin is becoming more like gold or still behaves chiefly as a speculative asset.
+## Motivation  
+Bitcoin is often called “digital gold,” but this idea is more cultural than analytical. Gold has served as a safe-haven asset for centuries, whereas Bitcoin, despite its risks, has gained institutional interest.  
+By analyzing returns, volatility, and rolling correlations between Bitcoin and gold, this project aims to evaluate whether Bitcoin is evolving into a store of value or remains primarily speculative.
 
 # Data Sources  
 - Bitcoin → Daily historical prices from CoinGecko API or Yahoo Finance  
-- Gold  → Daily historical prices from Yahoo Finance  
-Both datasets will be synchronized by date.
+- Gold → Daily historical gold prices from Yahoo Finance  
+Both assets will be aligned by date and analyzed over the same time periods.
 
 # Methodology  
-- Gather daily closing prices for Bitcoin and gold  
-- Clean and align the data  
-- Compute daily and cumulative returns, and rolling volatility  
-- Plot long-term and log-scale price trends  
-- Analyze rolling correlation over time (early vs. recent Bitcoin behavior)
+- Collect historical daily closing prices for Bitcoin and gold  
+- Clean and align the datasets  
+- Calculate daily returns, cumulative returns, and rolling volatility  
+- Plot price movements on both normal and log scales  
+- Analyze how correlation changes over time (early Bitcoin vs. recent Bitcoin)
 
-# Tools
+# Tools  
 - Python, Jupyter Notebook, pandas, matplotlib, seaborn, yfinance or CoinGecko API.
 
-# Expected Findings  
-- Bitcoin will likely have higher returns but significantly higher volatility than gold  
-- Gold should maintain its stability  
-- Bitcoin may show signs of maturity over time (e.g., reduced volatility, stronger correlation with gold)  
-This project does not aim to predict future prices — it focuses on historical analysis and interpretation.
+# Expected Outcomes  
+- Bitcoin will likely have higher returns but much greater volatility than gold  
+- Gold should remain more stable and consistent as a store of value  
+- Over time, Bitcoin may show maturing behavior (e.g., decreasing volatility, stronger correlation with gold)  
+This project focuses on historical analysis, not price prediction.
 
-# 7. Timeline (Based on Course Deadlines)  
-| Phase   | Task                           | Deadline      |
-|---------|--------------------------------|---------------|
-| Phase 1 | Proposal submission            | 31 Oct 2025   |
-| Phase 2 | Data collection & EDA          | End of Nov 2025 |
-| Phase 3 | Analysis & interpretation       | Early Jan 2026 |
-| Final   | Report & notebook submission    | 9 Jan 2026    |
+
 
