@@ -26,7 +26,7 @@ Both assets will be aligned by date and analyzed over the same time periods.
 # Expected Outcomes  
 - Bitcoin will likely have higher returns but much greater volatility than gold  
 - Gold should remain more stable and consistent as a store of value  
-- Over time, Bitcoin may show maturing behavior (e.g., decreasing volatility, stronger correlation with gold)  
+- Over time, Bitcoin may show maturing behavior (decreasing volatility, stronger correlation with gold)  
 This project focuses on historical analysis, not price prediction.
 
 
