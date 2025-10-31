@@ -1,4 +1,5 @@
 # Analyzing Bitcoin and Gold Market Dynamics
+**DSA 210 – Term Project**
 
 # Project Overview  
 This project compares Bitcoin and gold to understand how each functions as a store of value. Gold is a long-established, stable asset, while Bitcoin is digital, relatively new, and highly volatile. The goal is to examine whether Bitcoin is starting to behave like gold or if it still acts mainly as a speculative asset.
