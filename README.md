@@ -2,10 +2,10 @@
 **DSA 210 – Term Project**
 
 # Project Overview  
-This project compares Bitcoin and gold to understand how each functions as a store of value. Gold is a long-established, stable asset, while Bitcoin is digital, relatively new, and highly volatile. The goal is to examine whether Bitcoin is starting to behave like gold or if it still acts mainly as a speculative asset.
+This project analyzes Bitcoin and gold from a financial perspective by comparing their price behavior, volatility, and risk-adjusted performance. Gold has a long history as a stable store of value, while Bitcoin is a newer digital asset known for sharp price swings. By applying time-series techniques, the study aims to determine whether Bitcoin is gradually showing features similar to gold, such as long term value holding, lower volatility, or safe behavior, or if it still functions mainly as a speculative, high risk asset.
 
 # Motivation  
-Bitcoin is often called “digital gold,” but this idea is more cultural than analytical. Gold has served as a safe asset for centuries, whereas Bitcoin, despite its risks, has gained institutional interest. By analyzing returns, volatility, and rolling correlations between Bitcoin and gold, this project aims to evaluate whether Bitcoin is evolving into a store of value or remains primarily speculative.
+The idea of Bitcoin being “digital gold” is widely discussed, but often without strong quantitative analysis. Gold is considered a safe asset because it maintains value during uncertainty, has relatively low volatility, and resists inflation. Bitcoin, on the other hand, has shown extreme price fluctuations but is increasingly being adopted by investors and financial institutions. This project is motivated by the need to test whether Bitcoin is evolving into a store of value or still behaves like a speculative asset. By examining historical returns, log returns, rolling volatility, and correlations, the study aims to provide objective evidence rather than rely on assumptions or media narratives.
 
 # Data Sources  
 - CoinGecko API: Historical Bitcoin price data (BTC-USD), market cap, volume  
