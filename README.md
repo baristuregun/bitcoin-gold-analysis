@@ -53,4 +53,12 @@ Additional Data:
 - Gold is expected to remain more stable as a store of value  
 - Bitcoin may show signs of maturing over time, such as reduced volatility or a stronger relationship with gold  
 
-This project focuses on historical data analysis and interpretation, not price prediction.
+# Phase 2 – Exploratory Data Analysis Findings
+The exploratory data analysis shows that Bitcoin is significantly more volatile than gold
+throughout the observed period. Rolling volatility analysis highlights the higher risk
+associated with Bitcoin, while gold remains relatively stable. Additionally, rolling
+correlation results indicate that the relationship between Bitcoin and gold is unstable
+and fluctuates around zero, suggesting that Bitcoin does not consistently behave like gold
+as a store of value.
+
+
