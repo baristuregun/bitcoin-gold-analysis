@@ -61,4 +61,9 @@ correlation results indicate that the relationship between Bitcoin and gold is u
 and fluctuates around zero, suggesting that Bitcoin does not consistently behave like gold
 as a store of value.
 
-
+# Phase 3 – Machine Learning
+Machine learning models were applied to predict next day Bitcoin volatility  
+(30-day rolling volatility) using lagged returns and volatility features from Bitcoin and gold.
+A persistence baseline and Linear Regression achieved strong performance (R² ≈ 0.968),  
+while Random Forest performed worse. Feature importance indicates that Bitcoin’s own volatility is the dominant predictor,  
+and gold-related features contribute little in this setup.
