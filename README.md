@@ -26,12 +26,7 @@ This project aims to evaluate the “digital gold” argument using data by anal
 - H₁: The mean daily returns of Bitcoin and gold differ significantly.
 
 # Data Sources  
-- *CoinGecko API:* Historical Bitcoin price data (BTC-USD), market cap, volume  
 - *Yahoo Finance API:* Historical gold prices (XAU-USD)  
-
-Additional Data:  
-- *Google Trends:* Search interest for “Bitcoin”, “gold”, and related terms  
-- *Crypto Fear & Greed Index:* Sentiment indicator for Bitcoin  
 
 # Analysis Plan  
 - Collect historical daily closing prices for Bitcoin and gold  
